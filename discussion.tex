@@ -1,0 +1,21 @@
+\subsection{Expectations}
+The results are mostly in alignment with what could be expected going into this project for several reasons:
+\begin{enumerate}
+    \item Three features: using only three features for detecting melanoma compared to the usually utilized seven or more is making the process less reliable, especially that one of the features was only present in the data set in very limited cases \cite{seven-pointchecklist}.\
+    \item Imbalanced classes: we have worked with almost 500 pictures, but made sure to include all melanoma pictures from the originally available 2,300 pictures, but even so there were only 51 examples for our classifier to work with.\
+    \item Limitations in our knowledge: we have learned a lot throughout this project, but it is undeniable that with time and further learning the results can be improved.
+\end{enumerate}
+
+
+\subsection{Possible improvements}
+For possible improvements, we consider:
+\begin{enumerate}
+    \item Feature selection: expanding the feature set beyond just three could enhance the reliability of melanoma detection. Exploring additional relevant features, even if they are not present in every data set, might contribute to a more comprehensive analysis.\
+
+    \item Data augmentation: given the imbalanced classes with only 51 melanoma examples, employing data augmentation techniques could help increase the diversity and quantity of melanoma samples for training the classifier. This involves techniques such as image rotation, flipping, or adding noise to generate synthetic examples.\
+
+    \item Exploring diverse data sets: incorporating additional data sets containing diverse melanoma images provide a more comprehensive understanding of melanoma characteristics and aid in improving the classifier's performance. Accessing varied data sets sourced from different sources or demographics could help address limitations in our current data set and contribute to more robust model training.\
+
+    \item Adjusting the threshold: while our current model operates with a 50\% threshold for melanoma classification, there's potential for refinement. By balancing the precision with prioritizing fewer false negatives over false positives, we can fine-tune the accuracy-precision trade-off. This strategic optimisation of the threshold parameter holds promise for improved classification outcomes. Thus, future iterations of our model could benefit from a systematic exploration of alternative threshold settings, potentially enhancing our accuracy for melanoma.
+    
+\end{enumerate}
